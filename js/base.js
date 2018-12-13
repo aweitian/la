@@ -7,6 +7,11 @@ function base_isArr(a)
 	return typeof a == "object" && a.constructor === Array;
 }
 
+function base_isUndefined(a)
+{
+	return typeof a == "undefined";
+}
+
 function base_padding(string,length,pad_string,pad_type)
 {
 	if (typeof pad_type == "undefined") 
